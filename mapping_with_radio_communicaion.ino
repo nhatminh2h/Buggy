@@ -10,8 +10,8 @@ RF24 radio(48,49);// set pin CE, CSN
 const byte address[6] = "00001";
 
 //US Left
-int trigPin2 = 8;
-int echoPin2 = 9;
+int trigPin2 = 3;
+int echoPin2 = 2;
 
 
 //US Right
@@ -20,8 +20,8 @@ int echoPin3 = 12;
 
 
 //motors
-int enA = 5;
-int in1 = 4;
+int enA = 9;
+int in1 = 8;
 int in2 = 14;
 
 int enB = 6;
@@ -166,4 +166,3 @@ void loop() {
   
   //RunF(70);
 }
-
